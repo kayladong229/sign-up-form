@@ -8,7 +8,7 @@ errorMessage.style.fontSize = "0.9rem";
 confirmation.appendChild(errorMessage);
 
 function comparePasswords() {
-  if (password.value != confirmedPassword.value) {
+  if (password.value !== confirmedPassword.value) {
     errorMessage.textContent = "Passwords do not match!";
   } else {
     errorMessage.textContent = "";
